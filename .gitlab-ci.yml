@@ -1,0 +1,47 @@
+image: cr.siemens.com/mindsphere-mainline/infrastructure/hub/python:latest
+
+stages:
+- Test
+- Run
+- Download
+
+
+.only_main_branch: &only_main_branch
+  only:
+  - main
+
+# sast:
+#   stage: Test
+# include:
+# - template: Security/SAST.gitlab-ci.yml
+
+# Build:
+#   stage: Run
+#   script:
+#   - pip install virtualenv
+#   - virtualenv ./venv
+#   - source venv/bin/activate
+#   - pip install pandas --no-deps --index-url https://yaddes5r:cmVmdGtuOjAxOjE3MDEwODM3MDI6ejRjYUEzWnFrRlN3SDZnMHQxa2FaUjZtT3c2@artifacts-ie.industrysoftware.automation.siemens.com/artifactory/api/pypi/mindsphere_rnd-release-pypi/simple
+
+
+# Run:
+#   stage: Run
+#   when: manual
+#   script:
+
+#   - pip install pandas --index-url https://yaddes5r:cmVmdGtuOjAxOjE3MDEwODM3MDI6ejRjYUEzWnFrRlN3SDZnMHQxa2FaUjZtT3c2@artifacts-ie.industrysoftware.automation.siemens.com/artifactory/api/pypi/mindsphere_rnd-release-pypi/simple
+#   - pip install numpy
+#   - cd src/
+#   - python3 main.py
+
+Download:
+  stage: Download
+  # when: manual
+  script:
+  - echo "Downloading started..." 
+  - curl "https://code.siemens.com/api/v4/projects/262790/repository/files/src%2Fdest%2Fagent_output.csv/raw?READ_PRIVATE=CSC-yQWeT9otDsaG9_zYTnmH&ref=main" -o agent_output1.csv
+  - cat index.html
+
+   
+  
+
