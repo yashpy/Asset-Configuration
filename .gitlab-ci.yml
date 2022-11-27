@@ -18,9 +18,6 @@ stages:
 # Build:
 #   stage: Run
 #   script:
-#   - pip install virtualenv
-#   - virtualenv ./venv
-#   - source venv/bin/activate
 #   - pip install pandas --no-deps --index-url https://yaddes5r:cmVmdGtuOjAxOjE3MDEwODM3MDI6ejRjYUEzWnFrRlN3SDZnMHQxa2FaUjZtT3c2@artifacts-ie.industrysoftware.automation.siemens.com/artifactory/api/pypi/mindsphere_rnd-release-pypi/simple
 
 
