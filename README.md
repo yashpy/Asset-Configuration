@@ -15,4 +15,3 @@ Repo to generate CSV-file with required configuration,
 - Run Command ```python main.py``` while in src/ directory
 - Output is generated accordingly in src/dest/ directory
 
-For Accessing the pipeline, you can visit gitlab account link:https://gitlab.com/yadnesh.deshpande1/Asset-Configuration

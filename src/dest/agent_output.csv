@@ -1,0 +1,8 @@
+﻿col1,col2,col3,tenantId,assetId,typeId
+3.126.143.74,/api/mindconnect/v3/exchange1,1,tiusr15,f26922959d71437ab3f08dcdb7d401b1,khenfr.vfc
+3.126.143.75,/api/mindconnect/v3/exchange2,2,tiusr16,f26922959d71437ab3f08dcdb7d401b2,khenfr.vfc2
+3.126.143.76,/api/mindconnect/v3/exchange3,3,tiusr17,f26922959d71437ab3f08dcdb7d401b3,khenfr.vfc3
+3.126.143.77,/api/mindconnect/v3/exchange4,4,tiusr18,f26922959d71437ab3f08dcdb7d401b4,khenfr.vfc4
+3.126.143.78,/api/mindconnect/v3/exchange5,5,tiusr19,f26922959d71437ab3f08dcdb7d401b5,khenfr.vfc5
+3.126.143.79,/api/mindconnect/v3/exchange6,6,tiusr20,f26922959d71437ab3f08dcdb7d401b6,khenfr.vfc6
+3.126.143.80,/api/mindconnect/v3/exchange7,7,tiusr21,f26922959d71437ab3f08dcdb7d401b7,khenfr.vfc7

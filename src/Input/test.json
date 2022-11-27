@@ -1,0 +1,9 @@
+{"asset_details":[
+{"col1":"3.126.143.74","col2":"/api/mindconnect/v3/exchange1","col3":"1","tenantId":"tiusr15","assetId":"f26922959d71437ab3f08dcdb7d401b1"},
+{"col1":"3.126.143.75","col2":"/api/mindconnect/v3/exchange2","col3":"2","tenantId":"tiusr16","assetId":"f26922959d71437ab3f08dcdb7d401b2"},
+{"col1":"3.126.143.76","col2":"/api/mindconnect/v3/exchange3","col3":"3","tenantId":"tiusr17","assetId":"f26922959d71437ab3f08dcdb7d401b3"},
+{"col1":"3.126.143.77","col2":"/api/mindconnect/v3/exchange4","col3":"4","tenantId":"tiusr18","assetId":"f26922959d71437ab3f08dcdb7d401b4"},
+{"col1":"3.126.143.78","col2":"/api/mindconnect/v3/exchange5","col3":"5","tenantId":"tiusr19","assetId":"f26922959d71437ab3f08dcdb7d401b5"},
+{"col1":"3.126.143.79","col2":"/api/mindconnect/v3/exchange6","col3":"6","tenantId":"tiusr20","assetId":"f26922959d71437ab3f08dcdb7d401b6"},
+{"col1":"3.126.143.80","col2":"/api/mindconnect/v3/exchange7","col3":"7","tenantId":"tiusr21","assetId":"f26922959d71437ab3f08dcdb7d401b7"}
+]}
